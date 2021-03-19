@@ -60,7 +60,7 @@ Possible voice commands are:
 7. "Brže"(Faster)
 8. "Sporije"(Slower)
 
-If in this state obstacle is detected robot will start execution obstacle avoiding algorithm. 
+If in this state obstacle is detected robot will start execution of obstacle avoiding algorithm. 
 
 # Obstacle avoiding algorthm
 
