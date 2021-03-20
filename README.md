@@ -4,7 +4,7 @@
 This project represents hardware and software design and the development of a robot controlled by voice. The idea of this project is the realization of a mobile robot that would have the ability to control via voice as well as a remote control with the additional ability to detect obstacles and bypass them. Control would be realized through the relevant Bluetooth module, using a mobile phone and application. A motor driver is used to control the motors themselves. Obstacle detection is provided by an ultrasonic sensor. The idea is for this robot to be intelligent enough to obey certain commands, move around space and detect obstacles as well as avoiding them.
 
 # Robot display
-Check out working of robot in the video below:
+Check out working of robot in the video by clicking on the picture below:
 
 [![Arduino-Obstacle-Avoiding-Robot-controlled-by-voice](https://user-images.githubusercontent.com/75175755/111798156-1579b080-88ca-11eb-9cc9-701813a57c7a.jpg)](https://www.youtube.com/watch?v=0ZskeoQ-Kg4)
 
@@ -64,4 +64,15 @@ If in this state obstacle is detected robot will start execution of obstacle avo
 
 # Obstacle avoiding algorthm
 
-This robot provides avoiding servel types of obstacles. He attempts to avoid that obstacle by following obstacle's edge and detect when 
+This robot provides avoiding servel types of obstacles. His main goal is to follow initial route while avoiding obstacle. He follows one egde of obstacle with ultrasonic sensor. When robot realizes that he passed one side of obstacle, he turns to the certain side and starts to follow that side of obstacle. When that side is passed he considers that the obstacle has been passed and returns to the old trajectory. 
+
+This robot has the ability to:
+
+1. If an obstacle is limited and the robot can go on the left or right side, he will avoid that obstacle
+2. If the robot gets new command while avoiding an obstacle, the command will have a higher priority
+3. Robot can detect tunnel-type obstacles, in that case, he stops and waits for the new command
+4. Robot has the ability to detect walls
+5. Robot can avoid more obstacles during the same trajectory
+
+
+For more details you can check my report in files above.
