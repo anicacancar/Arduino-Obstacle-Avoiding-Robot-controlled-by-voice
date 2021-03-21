@@ -1,7 +1,7 @@
 
 # Arduino-Obstacle-Avoiding-Robot-controlled-by-voice
 
-This project represents hardware and software design and the development of a robot controlled by voice. The idea of this project is the realization of a mobile robot that would have the ability to control via voice as well as a remote control with the additional ability to detect obstacles and bypass them. Control would be realized through the relevant Bluetooth module, using a mobile phone and application. A motor driver is used to control the motors themselves. Obstacle detection is provided by an ultrasonic sensor. The idea is for this robot to be intelligent enough to obey certain commands, move around space and detect obstacles as well as avoiding them.
+This project represents hardware and software design and the development of a robot controlled by voice. The idea of this project is the realization of a mobile robot can be controlled via voice or remote with the additional ability to detect obstacles and bypass them. Control would be realized through the relevant Bluetooth module, using a mobile phone and application. A motor driver is used to control the motors themselves. Obstacle detection is provided by an ultrasonic sensor. The idea is for this robot to be intelligent enough to obey certain commands, move around space and detect obstacles as well as avoiding them.
 
 # Robot display
 Check out the working of the robot in the video by clicking on the picture below:
