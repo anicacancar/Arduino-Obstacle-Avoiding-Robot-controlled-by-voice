@@ -64,7 +64,7 @@ If in this state obstacle is detected robot will start execution of obstacle avo
 
 # Obstacle avoiding algorithm
 
-This robot provides avoiding several types of obstacles. His main goal is to follow the initial route while avoiding the obstacle. He follows one edge of the obstacle with an ultrasonic sensor. When the robot realizes that he passed one side of the obstacle, he turns to a certain side he which he thinks is better and starts to follow that side of the obstacle. When that side is passed he considers that the obstacle has been passed and returns to the old trajectory. 
+This robot provides avoiding several types of obstacles. His main goal is to follow the initial route while avoiding the obstacle. He follows one edge of the obstacle with an ultrasonic sensor. When the robot realizes that he passed one side of the obstacle, he turns to a certain side which he thinks is better and starts to follow and avoid that side of the obstacle. When that side is passed he considers that the obstacle has been passed and returns to the old trajectory. 
 
 This robot has the ability to:
 
@@ -75,4 +75,4 @@ This robot has the ability to:
 5. Robot can avoid more obstacles during the same trajectory
 
 
-For more details, you can check my report in the files above.
+For more details, you can check my thesis report in the files above.
